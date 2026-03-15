@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="ae10471a-5a30-4e06-9c25-53a6f9fe29fd">
+      <active>true</active>
+      <description>FLT_CTL_Backlighting</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A_OH_LIGHTING_OVD) 255 *" UUID="0" />
+        <test type="Float" value="255" />
+        <modifiers>
+          <comparison active="True" value="5" operand="&lt;" ifValue="0" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="-" trigger="normal" pin="Backlight" pinBrightness="255" pinPwm="True" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0ed51713-a8ef-4395-8f65-df584faf1a1c">
+      <active>true</active>
+      <description>FLT_CTL_FAC_1_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FLT_CTL_FAC_1_U)" UUID="d4e43a77-f691-4f99-afcf-50228529727b" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="FLT_CTL_L/ SN-F70-ADF" trigger="normal" pin="FAC_1_Fault" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ab1ebf7b-7718-4eb5-88fb-5f34ca072b81">
+      <active>true</active>
+      <description>FLT_CTL_FAC_1_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FLT_CTL_FAC_1_L)" UUID="10e6b855-eb78-4421-8349-cbff56eca061" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="FLT_CTL_L/ SN-F70-ADF" trigger="normal" pin="FAC_1_Off" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bdfdd0ec-b7d3-4ddc-85df-bc8ec9b0b0dd">
+      <active>true</active>
+      <description>FLT_CTL_SEC_1_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FLT_CTL_SEC_1_U)" UUID="eb2db047-e72d-443e-8223-51890df255d9" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="FLT_CTL_L/ SN-F70-ADF" trigger="normal" pin="SEC_1_Fault" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="17a64151-bd06-44eb-84cd-64659e1fb424">
+      <active>true</active>
+      <description>FTL_CTL_SEC_1_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FLT_CTL_SEC_1_L)" UUID="8e701d9a-5c2f-4094-a6c0-55fba6e4c8b2" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="FLT_CTL_L/ SN-F70-ADF" trigger="normal" pin="SEC_1_Off" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e65fb2f7-838c-435b-85ee-1be90f34c8ff">
+      <active>true</active>
+      <description>FTL_CTL_ELAC_1_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FLT_CTL_ELAC_1_U)" UUID="caa63de8-241b-4a6f-bcf6-a076bd84a2d6" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="FLT_CTL_L/ SN-F70-ADF" trigger="normal" pin="ELAC_1_Fault" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5f860b41-73e8-4f31-beae-6287bdc10960">
+      <active>true</active>
+      <description>FLT_CTL_ELAC_1_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FLT_CTL_ELAC_1_L)" UUID="34bb3df9-7a7c-4816-9d23-4259866359dc" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="FLT_CTL_L/ SN-F70-ADF" trigger="normal" pin="ELAC_1_Off" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="4bc1be71-30f2-49c2-ab12-9a65a9a14d98">
+      <active>true</active>
+      <description>FLT_CTL_FAC_1_Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FLT_CTL_L/ SN-F70-ADF" name="FAC_1_Button" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FLT_CTL_FAC_1)" presetId="8cdfeb9b-6348-4ebf-8109-82771a210c49" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FLT_CTL_FAC_1)" presetId="8cdfeb9b-6348-4ebf-8109-82771a210c49" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9fb69e86-3f46-450b-a9d5-c37ce7e92d83">
+      <active>true</active>
+      <description>FLT_CTL_SEC_1_Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FLT_CTL_L/ SN-F70-ADF" name="SEC_1_Button" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FLT_CTL_SEC_1) " presetId="56315f6e-d459-4234-9ab2-d90eef076aec" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FLT_CTL_SEC_1) " presetId="56315f6e-d459-4234-9ab2-d90eef076aec" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="66bc7da5-83e9-4ec0-b280-eca46a4db403">
+      <active>true</active>
+      <description>FLT_CTL_ELAC_1_Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FLT_CTL_L/ SN-F70-ADF" name="ELAC_1_Button" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FLT_CTL_ELAC_1) " presetId="a18350d4-b680-4c98-8467-437b7341f517" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FLT_CTL_ELAC_1) " presetId="a18350d4-b680-4c98-8467-437b7341f517" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

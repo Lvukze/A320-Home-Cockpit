@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Nano</ModuleType>
+  <ModuleName>Nano_AirCon_L</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="PACK_FLOW_Hi" Pin="2" />
+  <Button Name="PACK_FLOW_Lo" Pin="4" />
+  <Button Name="PACK_2_Korry" Pin="10" />
+  <Button Name="PACK_FLOW_Norm" Pin="6" />
+  <Output Name="Backlighting" Pin="3" />
+  <Output Name="HOT_AIR_F" Pin="5" />
+  <Output Name="PACK_2_O" Pin="7" />
+  <Output Name="HOT_AIR_O" Pin="8" />
+  <Output Name="PACK_2_F" Pin="9" />
+  <Output Name="ENG_1_F" Pin="11" />
+  <Output Name="ENG_1_O" Pin="12" />
+  <Button Name="blank" Pin="13" />
+  <Output Name="RAM_AIR_O" Pin="14" />
+  <Output Name="ENG_2_F" Pin="15" />
+</Config>

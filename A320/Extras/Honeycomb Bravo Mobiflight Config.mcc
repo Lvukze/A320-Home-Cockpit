@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs />
+  <inputs>
+    <config guid="f3e9d95e-987d-4184-ba43-b78d263812c6">
+      <active>false</active>
+      <description>[HB] * These entries are simple mappings between input and simulator events. They should be self-explanatory.</description>
+    </config>
+    <config guid="58c65911-b8aa-4396-a8fb-a6e3055f42e7">
+      <active>true</active>
+      <description>[HB] Gear - Up</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 31" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:GEAR_UP)" presetId="fe68cf20-2c27-4532-8ab3-bd5c605a197c" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d996ad03-0f71-4669-a033-0fa9a9d5d3c0">
+      <active>true</active>
+      <description>[HB] Gear - Down</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 32" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:GEAR_DOWN)" presetId="c713f67d-03cb-48c9-a3d5-0665a509837b" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ad3d4a5b-b2b4-410b-99e7-77bafc86a277">
+      <active>true</active>
+      <description>[HB] Flaps - Up</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 16" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:FLAPS_DECR)" presetId="9415a1f7-8a3c-40d2-8f05-6c49a24f57bd" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2cd02024-1645-4f14-bdd4-0a87028f3606">
+      <active>true</active>
+      <description>[HB] Flaps - Down</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 15" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:FLAPS_INCR)" presetId="e624c562-179c-4b0e-87f4-08ff26066251" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a53f7e36-7f7f-4072-93eb-50077c40a07c">
+      <active>true</active>
+      <description>[HB] Trim - Nose Up</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 23" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onHold holdDelay="0" repeatDelay="1" type="MSFS2020CustomInputAction" command="(&gt;K:ELEV_TRIM_UP)" presetId="adc21a38-0671-481d-aa80-233c7ca33823" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8dd1032d-1f87-48d6-ad88-a0e209102f0b">
+      <active>true</active>
+      <description>[HB] Trim - Nose Down</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 22" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onHold holdDelay="0" repeatDelay="1" type="MSFS2020CustomInputAction" command="(&gt;K:ELEV_TRIM_DN)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="92f92670-2d45-4ca8-a4c1-756fc50d6110">
+      <active>false</active>
+      <description>[HB] * These entries concern the autopilot controls.</description>
+    </config>
+    <config guid="c3c3d960-c372-49cd-ab99-3cf52bdf27f8">
+      <active>false</active>
+      <description>[HB] * We use a MobiFlight variable to store the currently selected mode for the encoder, mimicking the official Honeycomb software.</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="" name="" type="-" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3f4e8554-2433-4479-9e29-5a3c7e4d172f">
+      <active>true</active>
+      <description>[HB] Mode - ALT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 21" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="string" varName="HB_Mode" varExpression="ALT" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="269ecc4f-6a0f-4381-9e10-e096bd8fcf9e">
+      <active>true</active>
+      <description>[HB] Mode - VS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 20" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="string" varName="HB_Mode" varExpression="VS" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a7423d03-5b53-4a98-874c-a1fe9c1dc084">
+      <active>true</active>
+      <description>[HB] Mode - HDG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 19" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="string" varName="HB_Mode" varExpression="HDG" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="105273e1-41e8-4bb8-9705-46b44cbb77dc">
+      <active>true</active>
+      <description>[HB] Mode - CRS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 18" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="string" varName="HB_Mode" varExpression="CRS" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3b5fba66-2540-44a4-8b6b-e6b6fc59d8c2">
+      <active>true</active>
+      <description>[HB] Mode - IAS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 17" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="string" varName="HB_Mode" varExpression="IAS" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="333f42f0-7ac5-4df8-ad3c-7bcc854747f2">
+      <active>true</active>
+      <description>[HB] AP - HDG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_HEADING, BOOL) if{ 0 (&gt;L:S_FCU_HEADING) } els{ 1 (&gt;L:S_FCU_HEADING) }&#xA;" presetId="1a7c8d7d-caa0-4eb8-9a1e-d256ffeccaba" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b3616338-91d1-4df7-b542-d397693eda64">
+      <active>true</active>
+      <description>[HB] AP - NAV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_EFIS1_BARO_STD) 0 == if{ 1 } els{ 0 } (&gt;L:S_FCU_EFIS1_BARO_STD)" presetId="8438cccd-c1f9-4bce-a9f6-5190dce807aa" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9805b19d-cb9d-4b9a-a1d8-b3535fbacd37">
+      <active>true</active>
+      <description>[HB] AP - APR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 3" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_APPR, BOOL) if{ 0 (&gt;L:S_FCU_APPR) } els{ 1 (&gt;L:S_FCU_APPR) }&#xA;" presetId="515ac50d-03d7-4ea6-8172-eaf81f6c8745" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_FCU_APPR) s0 2 % 0 != if{ l0 ++ (&gt;L:S_FCU_APPR) }" presetId="12153059-2694-42b2-bcfe-d3070f5f49b5" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8cc5ae7e-fc10-458e-94be-d260dffbec40">
+      <active>true</active>
+      <description>[HB] AP - REV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 4" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_ALTITUDE_SCALE, Bool) if{ 0 (&gt;L:S_FCU_ALTITUDE_SCALE) } els{ 1 (&gt;L:S_FCU_ALTITUDE_SCALE) }" presetId="fb5f941f-dfed-4e50-b974-4d6966e93877" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e19932aa-18ee-41fe-ac16-d6dc1b146b84">
+      <active>true</active>
+      <description>[HB] AP - ALT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 5" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_ALTITUDE, BOOL) if{ 0 (&gt;L:S_FCU_ALTITUDE) } els{ 1 (&gt;L:S_FCU_ALTITUDE) }" presetId="10970d9a-8fcf-4cbe-aa0c-61c5ed77de05" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="de32bd59-4790-4760-8f58-a5f79167b3a4">
+      <active>true</active>
+      <description>[HB] AP - VS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 6" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_VERTICAL_SPEED, BOOL) if{ 0 (&gt;L:S_FCU_VERTICAL_SPEED) } els{ 1 (&gt;L:S_FCU_VERTICAL_SPEED) }&#xA;" presetId="896487f7-c846-4490-9de3-ab3bec347e29" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8717d5ff-a904-4d21-8c59-e520dc618478">
+      <active>true</active>
+      <description>[HB] AP - IAS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 7" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_SPEED, BOOL) if{ 0 (&gt;L:S_FCU_SPEED) } els{ 1 (&gt;L:S_FCU_SPEED) }" presetId="5240d768-2f88-498d-8629-9225c73285cc" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="54e0a43d-f320-49d5-9968-023ef4c1529c">
+      <active>true</active>
+      <description>[HB] AP - Autopilot</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 8" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_AP1, BOOL) if{ 0 (&gt;L:S_FCU_AP1) } els{ 1 (&gt;L:S_FCU_AP1) }&#xA;" presetId="2e62a568-081c-4a58-af37-0e867d17f2c2" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0327b4b0-2056-4287-ba46-4f1690727209">
+      <active>true</active>
+      <description>[HB] Encoder - ALT +</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 13" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_ALTITUDE) ++ (&gt;L:E_FCU_ALTITUDE)" presetId="c792e16a-4a32-40c2-8ba8-d5802a28760e" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="ALT" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5b978b37-1075-4d02-ac47-ae32798d9a66">
+      <active>true</active>
+      <description>[HB] Encoder - ALT -</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_ALTITUDE) -- (&gt;L:E_FCU_ALTITUDE)" presetId="e83c6d89-81f4-4ed6-8e0c-6bb95d46521b" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="ALT" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dd97e6b1-0b99-475d-a677-4cb8071a6c5a">
+      <active>true</active>
+      <description>[HB] Encoder - VS +</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 13" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_VS) ++ (&gt;L:E_FCU_VS)" presetId="219fa6ca-32fa-4f39-97b3-553fddc5a36e" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="VS" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d26b84e7-3ba4-4f24-9da5-1aa8a5cf7140">
+      <active>true</active>
+      <description>[HB] Encoder - VS -</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_VS) -- (&gt;L:E_FCU_VS)" presetId="0eda9b7a-487c-4d77-8370-93f3dd236007" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="VS" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="340bb8c5-a2b3-4cda-9405-a1b9c98d0c05">
+      <active>true</active>
+      <description>[HB] Encoder - HDG +</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 13" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_HEADING) ++ (&gt;L:E_FCU_HEADING)" presetId="0dd864dd-74ca-4012-b7e9-181756d4e2ce" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="HDG" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7a52f2eb-0cda-4e01-aa1c-a5abfa7f60f5">
+      <active>true</active>
+      <description>[HB] Encoder - HDG -</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_HEADING) -- (&gt;L:E_FCU_HEADING)" presetId="07bdaabc-80fb-4182-85cf-d932fe9e6c88" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="HDG" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bf437571-a9e5-48a3-8082-e92da46743ac">
+      <active>true</active>
+      <description>[HB] Encoder - CRS +</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 13" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_EFIS1_BARO) ++ (&gt;L:E_FCU_EFIS1_BARO)" presetId="ac381b74-3f8d-493d-b3f8-4b1d6eb84aa3" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="CRS" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="19aaad48-8b3d-4c11-acde-b933032e1726">
+      <active>true</active>
+      <description>[HB] Encoder - CRS -</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_EFIS1_BARO) -- (&gt;L:E_FCU_EFIS1_BARO)" presetId="e0b99d1f-7b67-4294-8596-24d3b78291d7" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="CRS" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="db881eaf-2c9c-4df8-9596-116dcc01e89f">
+      <active>true</active>
+      <description>[HB] Encoder - IAS +</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 13" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_SPEED) ++ (&gt;L:E_FCU_SPEED)" presetId="87f04f23-c3d9-4af5-9095-54ad8342192f" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="IAS" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="59f3b010-7d3e-4d1b-ba39-b93881cf86c7">
+      <active>true</active>
+      <description>[HB] Encoder - IAS -</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-7289af40-edee-11ef-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:E_FCU_SPEED) -- (&gt;L:E_FCU_SPEED)" presetId="9998b6fc-6a19-46b0-a2c7-0071f70c3e1f" />
+        </button>
+        <preconditions>
+          <precondition type="variable" active="true" ref="HB_Mode" operand="=" value="IAS" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b0e43389-dfc3-4f1b-915c-c058ad918c8f">
+      <active>false</active>
+      <description>[HB] * These entries read input values from the levers. These values are then stored into MobiFlight variables for processing by output configs.</description>
+    </config>
+    <config guid="31a3fa0d-0977-4dec-bab9-04442a6deb3f">
+      <active>false</active>
+      <description>[HB] * Using variables, rather than sending events directly from the input configs, allows us to make adjustments using ncalc expressions and other kinds of logic.</description>
+    </config>
+    <config guid="ad50b828-3ec2-4af6-9d85-4fadc8f7db29">
+      <active>true</active>
+      <description>[HB] Lever 1 - Read Detent</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 24" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Detent1" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Detent1" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="351a26a2-c9c2-42d3-ab4d-fe799279d4d3">
+      <active>true</active>
+      <description>[HB] Lever 1 - Read Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 29" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Button1" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Button1" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="70bf2140-1d49-4d5b-a050-67c66f9547e9">
+      <active>true</active>
+      <description>[HB] Lever 2 - Read Detent</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 25" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Detent2" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Detent2" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="04f038b2-664b-4fb9-8c54-fbc656fd3293">
+      <active>true</active>
+      <description>[HB] Lever 2 - Read Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 9" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Button2" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Button2" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="27f878a7-6596-4859-918f-1ea528eaeb94">
+      <active>true</active>
+      <description>[HB] Lever 3 - Read Detent</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 26" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Detent3" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Detent3" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2ec03243-2854-4be1-aef5-8b9465cbfc5b">
+      <active>true</active>
+      <description>[HB] Lever 3 - Read Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 10" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Button3" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Button3" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a1fb542f-4f0a-4036-af9e-772570015a77">
+      <active>true</active>
+      <description>[HB] Lever 3 - Read Reverser</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 30" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Reverser3" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Reverser3" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dec29982-ea19-4054-99d1-140ae8cf4661">
+      <active>true</active>
+      <description>[HB] Lever 4 - Read Detent</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 27" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Detent4" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Detent4" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a7aa2e00-17fc-4cee-9036-f92ae72278db">
+      <active>true</active>
+      <description>[HB] Lever 4 - Read Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 11" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Button4" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Button4" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5335cbbb-c6b2-4c9d-a9a7-39a0766bef3b">
+      <active>true</active>
+      <description>[HB] Lever 4 - Read Reverser</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 48" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Reverser4" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Reverser4" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5820db6f-2a46-409b-b54d-5c98be51cb85">
+      <active>true</active>
+      <description>[HB] Lever 5 - Read Detent</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 28" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Detent5" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Detent5" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="61085e59-eebe-4068-92a1-ec6278733c85">
+      <active>true</active>
+      <description>[HB] Lever 5 - Read Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 12" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Button5" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Button5" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7ceb15b3-1d77-41bb-85fb-c84a986a6ce0">
+      <active>true</active>
+      <description>[HB] Lever 6 - Read Detent</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Button 33" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="VariableInputAction" varType="number" varName="HB_Detent6" varExpression="1" />
+          <onRelease type="VariableInputAction" varType="number" varName="HB_Detent6" varExpression="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b018e542-98d8-4f4d-a1d5-109ff5e7d9c6">
+      <active>false</active>
+      <description>[HB] * In addition, the axes readers include some clever ncalc expressions that filter out any unwanted twitching movements from the levers.</description>
+    </config>
+    <config guid="1a50858c-ad70-42fd-b2cd-5797d2218846">
+      <active>true</active>
+      <description>[HB] Lever 1 - Read Axis</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Axis Y" type="AnalogInput" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <analog>
+          <onChange type="VariableInputAction" varType="number" varName="HB_Axis1" varExpression="if(in(@,0,65535),@,if(Abs($-@)&lt;300,$,@))" />
+        </analog>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2f846abe-00fa-4e72-ae9e-f52d46569c15">
+      <active>true</active>
+      <description>[HB] Lever 2 - Read Axis</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-cf3779f0-7351-11f0-8001-444553540000" name="Axis X" type="AnalogInput" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <analog>
+          <onChange type="VariableInputAction" varType="number" varName="HB_Axis2" varExpression="if(in(@,0,65535),@,if(Abs($-@)&lt;300,$,@))" />
+        </analog>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="cafa15eb-9545-4b25-9cea-92d3f701428d">
+      <active>true</active>
+      <description>HYD_ENG_1_PUMP_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_ENG_1_PUMP_U)" UUID="a2cf4854-d555-474f-bc0b-a5a5800dc9be" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_ENG_1_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="43abef80-ae26-4a58-bc3e-b8ddddc526b7">
+      <active>true</active>
+      <description>HYD_ENG_1_PUMP_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_ENG_1_PUMP_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_ENG_1_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="371fa161-94aa-4b68-859c-c934535f86c7">
+      <active>true</active>
+      <description>HYD_BLUE_ELEC_PUMP_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_BLUE_ELEC_PUMP_L)" UUID="d151a036-4c1b-461d-9b81-1c46c9958eaa" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_B_ELEC_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c297ed88-db6b-480d-b6f5-2000ace5f46d">
+      <active>true</active>
+      <description>HYD_BLUE_ELEC_PUMP_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_BLUE_ELEC_PUMP_U)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_B_ELEC_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c638aac1-d5d1-4879-973c-062484e165bf">
+      <active>true</active>
+      <description>HYD_PTU_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_PTU_U)" UUID="2d09ceb5-46a5-4ae5-99d6-1ae9ab563012" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_PTU_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fff11749-8408-4a91-9767-29b177f7691a">
+      <active>true</active>
+      <description>HYD_PTU_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_PTU_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_PTU_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3491f076-19d2-4f63-b598-759211dc26d5">
+      <active>true</active>
+      <description>HYD_ENG_2_PUMP_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_ENG_2_PUMP_U)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_ENG_2_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e6b8977a-1e65-4638-9678-2c9c4d1b9b89">
+      <active>true</active>
+      <description>HYD_ENG_2_PUMP_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_ENG_2_PUMP_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_ENG_2_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d192f942-37fc-4af0-99f1-8f7740b2b121">
+      <active>true</active>
+      <description>HYD_YELLOW_ELEC_PUMP_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_YELLOW_ELEC_PUMP_U)" UUID="604286b4-602f-4cc1-a194-85a217d13c4d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_Y_ELEC_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="53a6d793-e643-48c6-9c5e-6ce64abc3b3f">
+      <active>true</active>
+      <description>HYD_YELLOW_ELEC_PUMP_On</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_HYD_YELLOW_ELEC_PUMP_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_Y_ELEC_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d4f4389b-c028-446e-b261-87a97f991e0a">
+      <active>true</active>
+      <description>FUEL_L_TK_1_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_LEFT_1_U)" UUID="dbefd337-da23-4d64-ab1c-1b04b6a65c62" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_L_1_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5829eea2-5e4d-4d1c-9335-415c27ec3041">
+      <active>true</active>
+      <description>FUEL_L_TK_1_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_LEFT_1_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_L_1_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="84ef83b8-c522-42e7-81ad-cf2f317e2783">
+      <active>true</active>
+      <description>FUEL_L_TK_2_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_LEFT_2_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_L_2_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c7ac23d1-60a2-4cf6-9322-c4af2ff9752f">
+      <active>true</active>
+      <description>FUEL_L_TK_2_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_LEFT_2_U)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_L_2_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="39e20362-92a2-4c1d-9deb-a21cee560541">
+      <active>true</active>
+      <description>FUEL_R_TK_1_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_1_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_R_1_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c045a759-2b6d-4fa6-bec7-2d23737ec868">
+      <active>true</active>
+      <description>FUEL_R_TK_1_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_1_U)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_R_1_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8d7159e3-47fc-4b20-aeff-1972b6eb6f65">
+      <active>true</active>
+      <description>FUEL_R_TK_2_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_2_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_R_2_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="baef5b3f-36a5-4496-bbb3-24f33217c195">
+      <active>true</active>
+      <description>FUEL_R_TK_2_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_2_U)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_R_2_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="da827f3b-2763-42cd-b3bd-0dd6fdb47af6">
+      <active>true</active>
+      <description>FUEL_CTR_TK_1_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_1_U)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="Output 1" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="50a2ae49-7034-4d17-979f-39881f8aabaa">
+      <active>true</active>
+      <description>FUEL_CTR_TK_2_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_2_U)" UUID="b9f90929-5e27-4d0e-ac9c-35134326c675" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_CTR_2_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ed359498-0708-4715-a7f3-5f99bd89ad89">
+      <active>true</active>
+      <description>FUEL_CTR_TK_1_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_1_L)" UUID="bfdb3b5a-eba9-4ddd-86bd-bdfc8225af45" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_C_1_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="63f45c90-34b8-4a85-a647-0f51d31cae02">
+      <active>true</active>
+      <description>FUEL_CTR_TK_2_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_2_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_C_2_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0d6686d1-30bb-4669-a1b7-bf564875c4d3">
+      <active>true</active>
+      <description>FUEL_CTR_TK_MODE_SEL_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_MODE_SEL_U)" UUID="b432e289-28bd-4a22-adee-96f6a9169285" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_C_MODE_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="783026c2-3e41-42bb-8d4a-414d6e8605e5">
+      <active>true</active>
+      <description>FUEL_CTR_TK_MODE_SEL_Man</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_MODE_SEL_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_C_MODE_M" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7c182858-89cb-41bc-9cc1-6ca25bdde203">
+      <active>true</active>
+      <description>FUEL_X_FEED_Open</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_XFEED_U)" UUID="fb413d2d-2884-46cc-a98b-fc2314f4d371" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_X_FEED_Op" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5a48176b-4b7c-4f3c-9a98-18628e504bc5">
+      <active>true</active>
+      <description>FUEL_X_FEED_On</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_XFEED_L)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="FUEL_X_FEED_On" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="925c069c-8849-4395-b555-3d79fad882ce">
+      <active>true</active>
+      <description>HYD_FUEL_Backlighting</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A_OH_LIGHTING_OVD) " UUID="80ba2a0b-8a2e-44d8-9612-ac3552de103e" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$*255" />
+          <comparison active="True" value="5" operand="&lt;" ifValue="0" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="HYD_FUEL_Mega/ SN-92c-ce8" trigger="normal" pin="HYD_Backlighting" pinBrightness="255" pinPwm="True" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="58536704-3114-4380-969f-0d2606136d68">
+      <active>true</active>
+      <description>HYD_ENG_1_PUMP_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="HYD_ENG_1_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_HYD_ENG_1_PUMP)" presetId="5fef4bdf-2a77-4c29-8b45-d55e9992530f" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_HYD_ENG_1_PUMP)" presetId="5fef4bdf-2a77-4c29-8b45-d55e9992530f" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d5661fbd-b3c8-4155-b28b-a95ea7a4f317">
+      <active>true</active>
+      <description>HYD_RAT_MAN_ON_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="HYD_RAT_MAN_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_HYD_RAT_MAN_ON)" presetId="aa2c0e79-d001-4034-b5ee-e21d7f894d4a" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_HYD_RAT_MAN_ON)" presetId="aa2c0e79-d001-4034-b5ee-e21d7f894d4a" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d2dd6519-1013-4911-a930-fb061daeb30e">
+      <active>true</active>
+      <description>HYD_BLUE_ELEC_PUMP_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="HYD_B_PUMP_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_HYD_BLUE_ELEC_PUMP)" presetId="63eaf433-a052-4386-b9fd-582f9efb8d71" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_HYD_BLUE_ELEC_PUMP)" presetId="63eaf433-a052-4386-b9fd-582f9efb8d71" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9929e9db-3a2b-4755-851d-ea5b595f5d62">
+      <active>true</active>
+      <description>HYD_PTU_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="HYD_PTU_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_HYD_PTU)" presetId="6e9a897b-5fe4-41c8-abbf-bb0308481823" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_HYD_PTU)" presetId="6e9a897b-5fe4-41c8-abbf-bb0308481823" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0ad5f323-8099-4b3c-9607-fb7611ffd9fc">
+      <active>true</active>
+      <description>HYD_ENG_2_PUMP_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="HYD_ENG_2_PUMP_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_HYD_ENG_2_PUMP)" presetId="25a90d96-3626-4674-8da4-a33db7552ad6" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_HYD_ENG_2_PUMP)" presetId="25a90d96-3626-4674-8da4-a33db7552ad6" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="92451615-e391-4fc7-939d-a5a475511aae">
+      <active>true</active>
+      <description>HYD_YELLOW_ELEC_PUMP_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="HYD_Y_PUMP_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_HYD_YELLOW_ELEC_PUMP)" presetId="82a1c32e-3f69-4430-a555-9388ffc859ed" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_HYD_YELLOW_ELEC_PUMP)" presetId="82a1c32e-3f69-4430-a555-9388ffc859ed" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e86056bd-bb04-4e0c-97f9-2d24a3d4faae">
+      <active>true</active>
+      <description>FUEL_L_TK_1_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="FUEL_L_1_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_LEFT_1) " presetId="a4e8e9d8-71e2-4670-8d01-f3fe9f59eb65" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_LEFT_1) " presetId="a4e8e9d8-71e2-4670-8d01-f3fe9f59eb65" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0f97d0c9-7a0c-49ee-8776-f83ee41c356f">
+      <active>true</active>
+      <description>FUEL_L_TK_2_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="FUEL_L_2_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_LEFT_2)" presetId="e1a21b5a-e462-49c6-a9fd-a631af0be99d" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_LEFT_2)" presetId="e1a21b5a-e462-49c6-a9fd-a631af0be99d" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2dc5bcec-ab0a-4aa6-90eb-78989a8c0e59">
+      <active>true</active>
+      <description>FUEL_CTR_TK_1_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="CTR_PUMP_1_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_CENTER_1)&#xA;" presetId="edce2430-d69d-47d6-9ce5-d1cdb0c872b7" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_CENTER_1)&#xA;" presetId="edce2430-d69d-47d6-9ce5-d1cdb0c872b7" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ec7271a8-3c72-499a-9afd-183541e89d7f">
+      <active>true</active>
+      <description>FUEL_CTR_TK_MODE_SEL_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="CTR_MODE_SEL_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_MODE_SEL)" presetId="384180e2-cce3-454e-befd-e115209aae9c" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_MODE_SEL)" presetId="384180e2-cce3-454e-befd-e115209aae9c" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0e4765dc-6079-405d-b4cf-4c72778673b0">
+      <active>true</active>
+      <description>FUEL_CTR_TK_2_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="CTR_PUMP_2_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_CENTER_2) &#xA;" presetId="a2ee4bfd-ab5f-4bd0-b369-afd85dc56bdd" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_CENTER_2) &#xA;" presetId="a2ee4bfd-ab5f-4bd0-b369-afd85dc56bdd" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9b171fd3-4ad3-430e-845b-e0ef399da43a">
+      <active>true</active>
+      <description>FUEL_R_TK_1_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="FUEL_R_1_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_RIGHT_1)&#xA;" presetId="f3946fdb-1f1e-4429-986b-5b3b0ec662de" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_RIGHT_1)&#xA;" presetId="f3946fdb-1f1e-4429-986b-5b3b0ec662de" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="99cb42af-7f38-45dc-897d-576423b5919d">
+      <active>true</active>
+      <description>FUEL_R_TK_2_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="FUEL_R_2_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_RIGHT_2)&#xA;" presetId="f3946fdb-1f1e-4429-986b-5b3b0ec662de" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_RIGHT_2)&#xA;" presetId="f3946fdb-1f1e-4429-986b-5b3b0ec662de" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d28c6e1a-9de1-4a2c-8bea-a388681837a7">
+      <active>true</active>
+      <description>FUEL_X_FEED_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="HYD_FUEL_Mega/ SN-92c-ce8" name="FUEL_X_FEED_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FUEL_XFEED)&#xA;" presetId="8987eb02-c1ab-4d16-806f-ceabf487c35a" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FUEL_XFEED)&#xA;" presetId="8987eb02-c1ab-4d16-806f-ceabf487c35a" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

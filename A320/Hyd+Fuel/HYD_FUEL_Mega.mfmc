@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Mega</ModuleType>
+  <ModuleName>HYD_FUEL_Mega</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="HYD_Y_PUMP_K" Pin="4" />
+  <Button Name="HYD_PTU_K" Pin="8" />
+  <Button Name="HYD_ENG_2_PUMP_K" Pin="11" />
+  <Button Name="FUEL_L_2_K" Pin="12" />
+  <Output Name="HYD_Backlighting" Pin="13" />
+  <Button Name="CTR_PUMP_2_K" Pin="14" />
+  <Button Name="HYD_ENG_1_K" Pin="15" />
+  <Button Name="CTR_MODE_SEL_K" Pin="18" />
+  <Button Name="FUEL_L_1_K" Pin="21" />
+  <Button Name="FUEL_R_1_K" Pin="22" />
+  <Button Name="HYD_B_PUMP_K" Pin="23" />
+  <Button Name="HYD_RAT_MAN_K" Pin="35" />
+  <Button Name="FUEL_R_2_K" Pin="38" />
+  <Button Name="CTR_PUMP_1_K" Pin="42" />
+  <Button Name="FUEL_X_FEED_K" Pin="34" />
+  <Output Name="FUEL_CTR_2_F" Pin="2" />
+  <Output Name="FUEL_CTR_1_F" Pin="3" />
+  <Output Name="FUEL_L_2_O" Pin="5" />
+  <Output Name="FUEL_C_MODE_F" Pin="6" />
+  <Output Name="HYD_PTU_O" Pin="7" />
+  <Output Name="FUEL_L_2_F" Pin="9" />
+  <Output Name="HYD_ENG_2_O" Pin="10" />
+  <Output Name="FUEL_C_2_O" Pin="16" />
+  <Output Name="HYD_ENG_1_F" Pin="17" />
+  <Output Name="HYD_ENG_1_O" Pin="19" />
+  <Output Name="FUEL_X_FEED_Op" Pin="20" />
+  <Output Name="FUEL_R_2_O" Pin="24" />
+  <Output Name="FUEL_R_1_F" Pin="25" />
+  <Output Name="HYD_PTU_F" Pin="26" />
+  <Output Name="FUEL_X_FEED_On" Pin="27" />
+  <Output Name="HYD_B_ELEC_F" Pin="28" />
+  <Output Name="HYD_B_ELEC_O" Pin="29" />
+  <Output Name="FUEL_R_2_F" Pin="30" />
+  <Output Name="FUEL_L_1_O" Pin="31" />
+  <Output Name="HYD_Y_ELEC_F" Pin="32" />
+  <Output Name="HYD_ENG_2_F" Pin="33" />
+  <Output Name="FUEL_L_1_F" Pin="37" />
+  <Output Name="FUEL_R_1_O" Pin="39" />
+  <Output Name="FUEL_C_MODE_M" Pin="40" />
+  <Output Name="HYD_Y_ELEC_O" Pin="41" />
+  <Output Name="FUEL_C_1_O" Pin="36" />
+</Config>

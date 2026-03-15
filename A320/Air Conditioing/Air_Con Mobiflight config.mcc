@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="6e185ab5-b64d-4b1e-b702-3aeadb29f93e">
+      <active>true</active>
+      <description>AIR_CON_PACK_1_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_1_U)" UUID="07035e90-6cbd-47d3-b589-1038e7bb4c4e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Nano_AirCon_R/ SN-6EE-882" trigger="normal" pin="PACK_1_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c168fe5f-aca1-4971-afa4-07e14e4043d8">
+      <active>true</active>
+      <description>AIR_CON_PACK_1_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_1_L)" UUID="b27cc610-3774-4d6e-a68a-503bf3ee167c" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_R/ SN-6EE-882" trigger="normal" pin="PACK_1_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5b53fdb7-3c78-49f4-a10d-a42d5a02e57d">
+      <active>true</active>
+      <description>AIR_CON_ENG_1_BLEED_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG1_BLEED_U)" UUID="45623252-aa8c-48f7-b10c-02766c1d64af" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="ENG_1_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2568b106-06af-454b-a244-c33436cd6a55">
+      <active>true</active>
+      <description>AIR_CON_ENG_1_BLEED_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG1_BLEED_L)" UUID="1e640a68-5f90-4797-904a-5314f59d1883" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="ENG_1_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="380835db-5671-4628-b5de-946e1d78b0b5">
+      <active>true</active>
+      <description>AIR_CON_RAM_AIR_On</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_RAM_AIR_L)" UUID="82b0d0ca-a2e6-4dd5-abaf-6c74fd736ac3" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="RAM_AIR_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7533bf6c-00bf-47ab-aa6b-9adb5da7fc8c">
+      <active>true</active>
+      <description>AIR_CON_APU_BLEED_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_APU_BLEED_U)" UUID="28fb4a69-ea47-4561-9d46-29dcad72b096" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_R/ SN-6EE-882" trigger="normal" pin="APU_BLEED_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b2d8458c-07fc-40b4-9d14-13528dd1b82b">
+      <active>true</active>
+      <description>AIR_CON_APU_BLEED_On</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_APU_BLEED_L)" UUID="09b57479-9959-4705-9bca-d0d5c979697f" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_R/ SN-6EE-882" trigger="normal" pin="APU_BLEED_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6f633a32-5b6e-4be6-8fa3-61402fa28a20">
+      <active>true</active>
+      <description>AIR_CON_ENG_2_BLEED_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG2_BLEED_U)" UUID="3f161afd-9b56-4189-bc82-0c426091560d" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="ENG_2_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f25162a1-0cf2-4942-9d0e-24078d1e686a">
+      <active>true</active>
+      <description>AIR_CON_ENG_2_BLEED_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG2_BLEED_L)" UUID="80ba2a0b-8a2e-44d8-9612-ac3552de103e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Nano_AirCon_R/ SN-6EE-882" trigger="normal" pin="ENG_2_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c7af6705-d8df-4915-9c64-cd32a5c68d2f">
+      <active>true</active>
+      <description>AIR_CON_PACK_2_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_2_U)" UUID="a44760b4-ccb9-427c-8e69-7e6fa86be910" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="PACK_2_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d70a0488-7dd3-4c6b-b4ac-b159467005a4">
+      <active>true</active>
+      <description>AIR_CON_PACK_2_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_2_L)" UUID="37014451-b704-427e-81fd-da64ec10c5a8" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="PACK_2_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="42763488-d92a-4751-8297-6978173a3d69">
+      <active>true</active>
+      <description>AIR_CON_HOT_AIR_Fault</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_HOT_AIR_U)" UUID="47b0aff8-1ce9-44d2-8395-d4bd89eca1fd" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="HOT_AIR_F" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="586fd001-206d-42c8-958d-ba1e2d3d8b2e">
+      <active>true</active>
+      <description>AIR_CON_HOT_AIR_Off</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_HOT_AIR_L)" UUID="91d8e7c2-cda4-4308-8c31-66d7620674ee" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="HOT_AIR_O" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cb46085e-cdd6-49bb-a8b1-16b7c948481d">
+      <active>true</active>
+      <description>AIR_CON_Backlighting</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A_OH_LIGHTING_OVD) 255 *" UUID="80ba2a0b-8a2e-44d8-9612-ac3552de103e" />
+        <test type="Float" value="255" />
+        <modifiers>
+          <comparison active="True" value="5" operand="&lt;" ifValue="0" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="Nano_AirCon_L/ SN-9E7-A64" trigger="normal" pin="Backlighting" pinBrightness="255" pinPwm="True" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="944f3501-fbcc-416d-98fc-2e97df3e6448">
+      <active>true</active>
+      <description>AIR_CON_PACK_1_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="PACK_1_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_PACK_1) " presetId="e12ba779-fb66-4c63-be76-de0968f44a2a" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_PACK_1) " presetId="e12ba779-fb66-4c63-be76-de0968f44a2a" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3c17d6ce-71ff-41fd-8daf-c91b95c1a95d">
+      <active>true</active>
+      <description>AIR_CON_ENG_1_BLEED_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="ENG_1_BLEED_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_ENG1_BLEED) " presetId="79a77882-47d4-4218-8675-4391d31f993d" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_ENG1_BLEED) " presetId="79a77882-47d4-4218-8675-4391d31f993d" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e4033d12-90c9-453b-8053-465b52d3993b">
+      <active>true</active>
+      <description>AIR_CON_RAM_AIR_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="RAM_AIR_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_RAM_AIR) " presetId="0219d290-9c69-4127-b436-ffb00dbe673f" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_RAM_AIR) " presetId="0219d290-9c69-4127-b436-ffb00dbe673f" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="64e4f82c-125b-437e-87b1-0de68c0549d1">
+      <active>true</active>
+      <description>AIR_CON_APU_BLEED_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="APU_BLEED_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_APU_BLEED) " presetId="98cdc6a7-d80b-4104-bc81-b2d96f728976" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_APU_BLEED) " presetId="98cdc6a7-d80b-4104-bc81-b2d96f728976" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="375c10a6-2c80-4b61-bcde-b9db0c1f66f5">
+      <active>true</active>
+      <description>AIR_CON_ENG_2_BLEED_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="ENG_2_BLEED_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_ENG2_BLEED) " presetId="f6750b61-42f9-4cc7-9596-677151079db0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_ENG2_BLEED) " presetId="f6750b61-42f9-4cc7-9596-677151079db0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="109c7377-f8bd-4dcf-97d7-e4a3068d12bf">
+      <active>true</active>
+      <description>AIR_CON_PACK_2_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_L/ SN-9E7-A64" name="PACK_2_Korry" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_PACK_2)" presetId="cd3fe5d0-6a22-45ed-b05a-e2dcb1f1017e" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_PACK_2)" presetId="cd3fe5d0-6a22-45ed-b05a-e2dcb1f1017e" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cabd76b8-eb07-419d-af66-e464d4ae29c3">
+      <active>true</active>
+      <description>AIR_CON_HOT_AIR_Korry</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="HOT_AIR_K" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_HOT_AIR) " presetId="556ce429-81fa-4c5d-90f3-d6616fc341a8" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_HOT_AIR) " presetId="556ce429-81fa-4c5d-90f3-d6616fc341a8" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="af25c58d-f135-47f6-bd2b-5dadff106523">
+      <active>true</active>
+      <description>AIR_CON_PACK_FLOW_Lo</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_L/ SN-9E7-A64" name="PACK_FLOW_Lo" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_PACK_FLOW)" presetId="092e5844-402c-4657-be25-441467bc2aa8" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_PACK_FLOW)" presetId="0294e4dd-c93e-4d1f-b7c5-f6b421f3aa9a" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e1aebcf2-d139-40b6-a074-d9f1c98cb9b8">
+      <active>true</active>
+      <description>AIR_CON_PACK_FLOW_Hi</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_L/ SN-9E7-A64" name="PACK_FLOW_Hi" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_PNEUMATIC_PACK_FLOW)" presetId="e95856aa-7f35-4019-8cef-67f40a3167bb" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_PACK_FLOW)" presetId="0294e4dd-c93e-4d1f-b7c5-f6b421f3aa9a" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7c43fc5a-e210-4c7d-ad21-602503bad1d0">
+      <active>true</active>
+      <description>AIR_CON_X_BLEED_Shut</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="X_BLEED_S" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_XBLEED_SELECTOR)" presetId="3ea648dc-cca8-4cde-b5e6-4bdc1540ab51" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_XBLEED_SELECTOR)" presetId="637f74ce-fcea-4287-a562-4737a9285f69" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0bf3d244-06ae-4a52-9ee2-b396c16c2c05">
+      <active>true</active>
+      <description>AIR_CON_X_BLEED_Open</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="X_BLEED_O" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_PNEUMATIC_XBLEED_SELECTOR)" presetId="8c8cb379-0d39-47e7-9cad-f2a909bd129f" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_XBLEED_SELECTOR)" presetId="637f74ce-fcea-4287-a562-4737a9285f69" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="024188cf-9612-4ee4-be18-aedf1617840d">
+      <active>true</active>
+      <description>AIR_CON_COCKPIT_Pot</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="COCKPIT_P" type="AnalogInput" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <analog>
+          <onChange type="MSFS2020CustomInputAction" command="@ 15 - -1008 / 1 + 0 max 1 min  (&gt;L:A_OH_PNEUMATIC_COCKPIT_TEMP)" presetId="a86174d5-0571-4132-a23f-7bded35a8810" />
+        </analog>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2f2779f1-f11a-499b-b004-87dc6748c08e">
+      <active>true</active>
+      <description>AIR_CON_FWD_CABIN_Pot</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="FWD_CABIN_P" type="AnalogInput" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <analog>
+          <onChange type="MSFS2020CustomInputAction" command="@ 15 - -1008 / 1 + 0 max 1 min (&gt;L:A_OH_PNEUMATIC_FWD_TEMP)" presetId="d26d9e9d-80e8-43b1-88ac-398931838f10" />
+        </analog>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a91a606e-5d30-429f-ae17-30a1102413a5">
+      <active>true</active>
+      <description>AIR_CON_AFT_CABIN_Pot</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Nano_AirCon_R/ SN-6EE-882" name="AFT_CABIN_P" type="AnalogInput" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <analog>
+          <onChange type="MSFS2020CustomInputAction" command="@ 15 - -1008 / 1 + 0 max 1 min (&gt;L:A_OH_PNEUMATIC_AFT_TEMP)" presetId="e4b945b5-589b-4a33-8778-f24c70d30131" />
+        </analog>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

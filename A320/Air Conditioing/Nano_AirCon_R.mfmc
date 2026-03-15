@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Nano</ModuleType>
+  <ModuleName>Nano_AirCon_R</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="HOT_AIR_K" Pin="2" />
+  <Button Name="APU_BLEED_K" Pin="4" />
+  <Button Name="RAM_AIR_K" Pin="5" />
+  <Button Name="ENG_1_BLEED_K" Pin="6" />
+  <Button Name="X_BLEED_S" Pin="8" />
+  <Button Name="ENG_2_BLEED_K" Pin="9" />
+  <Button Name="X_BLEED_A" Pin="10" />
+  <Button Name=" blank" Pin="13" />
+  <AnalogInput Name="AFT_CABIN_P" Pin="14" Sensitivity="5" />
+  <AnalogInput Name="COCKPIT_P" Pin="15" Sensitivity="5" />
+  <AnalogInput Name="FWD_CABIN_P" Pin="16" Sensitivity="5" />
+  <Button Name="X_BLEED_O" Pin="17" />
+  <Button Name="PACK_1_K" Pin="18" />
+  <Output Name="PACK_1_F" Pin="3" />
+  <Output Name="ENG_2_O" Pin="7" />
+  <Output Name="APU_BLEED_O" Pin="11" />
+  <Output Name="APU_BLEED_F" Pin="12" />
+  <Output Name="PACK_1_O" Pin="19" />
+</Config>

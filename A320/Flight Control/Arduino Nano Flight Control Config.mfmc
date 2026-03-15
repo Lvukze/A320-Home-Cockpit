@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Nano</ModuleType>
+  <ModuleName>FLT_CTL_L</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Output Name="Backlight" Pin="2" />
+  <Button Name="FAC_1_Button" Pin="3" />
+  <Button Name="ELAC_1_Button" Pin="5" />
+  <Button Name="SEC_1_Button" Pin="9" />
+  <Output Name="ELAC_1_Fault" Pin="4" />
+  <Output Name="FAC_1_Off" Pin="6" />
+  <Output Name="SEC_1_Fault" Pin="7" />
+  <Output Name="FAC_1_Fault" Pin="8" />
+  <Output Name="SEC_1_Off" Pin="10" />
+  <Output Name="ELAC_1_Off" Pin="11" />
+</Config>

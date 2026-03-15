@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Mega</ModuleType>
+  <ModuleName>Lighting Mega</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="NO_SMOKING_On" Pin="2" />
+  <Button Name="LAND_L_On" Pin="3" />
+  <Button Name="EMBER_LT_Off" Pin="4" />
+  <Button Name="EMBER_LT_On" Pin="5" />
+  <Button Name="LAND_R_Retract" Pin="6" />
+  <Button Name="STROBE_On" Pin="7" />
+  <Button Name="ICE_STBY_On" Pin="8" />
+  <Button Name="STROBE_Off" Pin="9" />
+  <Button Name="SEAT_BELTS_On" Pin="10" />
+  <Button Name="LAND_R_On" Pin="12" />
+  <Button Name="LAND_L_Retract" Pin="57" />
+  <Button Name="NAV_&amp;_LOGO_Off" Pin="14" />
+  <Button Name="NO_SMOKING_Off" Pin="15" />
+  <Button Name="ANN_LT_Dim" Pin="16" />
+  <Button Name="RWY_TURN_OFF_On" Pin="17" />
+  <Button Name="NAV_&amp;_LOGO_2" Pin="19" />
+  <Button Name="MAN_VS_CTL_DN" Pin="20" />
+  <Button Name="DOME_Off" Pin="21" />
+  <Button Name="NOSE_Off" Pin="22" />
+  <Button Name="WING_On" Pin="24" />
+  <Button Name="MAN_VS_CTL_Up" Pin="25" />
+  <Button Name="DOME_Brt" Pin="26" />
+  <Button Name="ANN_LT_Test" Pin="27" />
+  <Button Name="BEACON_On" Pin="28" />
+  <Button Name="NOSE_To" Pin="29" />
+  <Encoder Name="LDG_ELEV_Encoder" PinLeft="11" PinRight="18" EncoderType="0" />
+  <AnalogInput Name="OVHD_INTEG_LT" Pin="54" Sensitivity="15" />
+  <Button Name="WING_Korry" Pin="30" />
+  <Button Name="ENG_2_Korry" Pin="36" />
+  <Button Name="START_Korry" Pin="39" />
+  <Button Name="DITCHING_Korry" Pin="44" />
+  <Button Name="PROBE_Korry" Pin="46" />
+  <Button Name="ENG_1_Korry" Pin="56" />
+  <Button Name="MASTER_SW_Korry" Pin="50" />
+  <Output Name="WING_Fauilt" Pin="31" />
+  <Output Name="START_On" Pin="32" />
+  <Output Name="MODE_SEL_Man" Pin="33" />
+  <Output Name="DITCHING_On" Pin="34" />
+  <Output Name="MASTER_SW_Fault" Pin="35" />
+  <Output Name="ENG_1_Fault" Pin="45" />
+  <Output Name="WING_KORRY_On" Pin="38" />
+  <Output Name="START_Avail" Pin="40" />
+  <Output Name="PROBE_On" Pin="41" />
+  <Output Name="EMBER_Off" Pin="42" />
+  <Output Name="MASTER_SW_On" Pin="43" />
+  <Output Name="ENG_1_On" Pin="37" />
+  <Output Name="ENG_2_Fault" Pin="47" />
+  <Output Name="ENG_2_On" Pin="48" />
+  <Output Name="MODE_SEL_Fault" Pin="52" />
+  <Button Name="MODE_SEL_Korry" Pin="55" />
+  <Output Name="Backlighting" Pin="13" />
+</Config>
